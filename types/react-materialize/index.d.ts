@@ -7,4 +7,4 @@
 export {
   Navbar,
   NavItem
-} from 'react-materialize'
+} from 'react-materialize';

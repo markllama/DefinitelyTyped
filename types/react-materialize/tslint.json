@@ -2,14 +2,6 @@
 	"extends": "dtslint/dt.json",
 	"rules": {
 		// TODOs
-    "no-single-declare-module": false,
-		"dt-header": false,
-		"no-any-union": false,
-		"no-empty-interface": false,
-		"no-object-literal-type-assertion": false,
-		"no-unnecessary-generics": false,
-		"no-void-expression": false,
-		"strict-export-declare-modifiers": false,
-		"void-return": false
+    "no-single-declare-module": false
 	}
 }
