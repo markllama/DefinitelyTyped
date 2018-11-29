@@ -4,14 +4,13 @@
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyType
 // TypeScript Version: 2.8
 
-import * as PropTypes from 'prop-types';
 import * as React from 'react';
 
-export interface NavbarProps {
-  children: string ;
-  divider: boolean;
-  href: string;
-  onClick(): void;
+export interface NavItemProps {
+  children?: string | React.ReactNode;
+  divider?: boolean;
+  href?: string;
+  onClick?: any;
 }
 
-export class Navbar extends React.Component<NavbarProps, any> {}
+export class NavItem extends React.Component<NavItemProps, any> {}
