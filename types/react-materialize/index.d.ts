@@ -10,7 +10,7 @@ export interface NavItemProps {
   children?: string | React.ReactNode;
   divider?: boolean;
   href?: string;
-  onClick?: any;
+  onClick?: () => void;
 }
 
 export class NavItem extends React.Component<NavItemProps, any> {}
