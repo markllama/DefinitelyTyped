@@ -4,7 +4,5 @@
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyType
 // TypeScript Version: 2.8
 
-import * as React from 'react';
-
 export import NavItem = require('./lib/NavItem');
 export import Navbar = require('./lib/Navbar');
