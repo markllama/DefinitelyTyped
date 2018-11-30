@@ -7,6 +7,6 @@ interface NavItemProps {
   onClick?: () => void;
 }
 
-interface NavItem extends React.Component<NavItemProps, any> {}
+declare class NavItem extends React.Component<NavItemProps, any> {}
 
 export = NavItem;

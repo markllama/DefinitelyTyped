@@ -1,5 +1,9 @@
-// import * as React from 'react';
+import * as React from 'react';
 import {
-  // Navbar,
+  Navbar,
   NavItem
 } from 'react-materialize';
+
+  <Navbar>
+  <NavItem>Hello There</NavItem>
+  </Navbar>;
